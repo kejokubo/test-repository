@@ -1,0 +1,32 @@
+name: "Maintain Repository Labels"
+
+on:
+  label:
+    types: [created, edited, deleted]
+  push:
+    branches: main
+    paths:
+      - .github/workflows/labels.json
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+  repository-projects: write
+
+jobs:
+  labelsync:
+    name: GitHub Label Sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts
+      - run: |
+          npm i -g github-label-sync
+          github-label-sync --allow-added-labels -l "$LABEL_CONFIG_PATH" "$LABEL_REPOSITORY"
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LABEL_REPOSITORY: ${{ github.repository }}
+          LABEL_CONFIG_PATH: .github/workflows/labels.json
