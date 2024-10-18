@@ -39,4 +39,6 @@ jobs:
         with:
           title: Thank you OperationCaribbeanSummer/test-repository contributors (${{ env.START_DATE }}..${{ env.END_DATE }})
           token: ${{ secrets.GITHUB_TOKEN }}
-          content-filepath: CONTRIBUTORS.md
+          repository: test-repository
+          labels: bug
+          content-filepath: /CONTRIBUTORS.md
