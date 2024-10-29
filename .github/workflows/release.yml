@@ -27,11 +27,11 @@ jobs:
         run: git checkout release-from-${{ github.sha }}
 
       # update app config with version
-      - name: get-npm-version
-        id: package-version
-        run: |
-          LF_VERSION=$(cat package.json | jq -r '.version')
-          echo "current-version=$LF_VERSION" >> "$GITHUB_OUTPUT"
+      # - name: get-npm-version
+      #   id: package-version
+      #   run: |
+      #     LF_VERSION=$(cat package.json | jq -r '.version')
+      #     echo "current-version=$LF_VERSION" >> "$GITHUB_OUTPUT"
   
       # create release info and push it upstream
       - name: conventional Changelog Action
