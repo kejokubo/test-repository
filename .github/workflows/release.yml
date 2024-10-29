@@ -4,8 +4,8 @@ on:
     branches:
       - main
 
-concurrency:
-  group: "main-branch"
+# concurrency:
+#   group: "main-branch"
 
 jobs:
   changelog:
@@ -35,11 +35,11 @@ jobs:
   
       # create release info and push it upstream
       - name: conventional Changelog Action
-        id: changelog
+        # id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: "./package.json,./package-lock.json"
+          # version-file: "./package.json,./package-lock.json"
           git-branch: "release-from-${{ github.sha }}"
           skip-git-pull: true
 
