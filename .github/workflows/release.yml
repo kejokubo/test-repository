@@ -1,24 +1,37 @@
-name: Release
+name: Releases
 on:
   push:
     branches:
       - main
+
 jobs:
   release:
-    name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Install deps
+        run: npm ci
 
-      - name: Install dependencies
-        run: npm i
+      - name: Build
+        run: npm run build
 
-      - name: Release
+      - run: git add dist -f
+
+      - name: Generate changelog
+        id: changelog
+        uses: ./
+        with:
+          github-token: ${{ secrets.CHANGELOG_RELEASE }}
+          create-summary: true
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        if: steps.changelog.outputs.skipped != 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release --branches=main --debug
+          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
