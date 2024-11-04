@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚑 Help & Support
+    url: https://github.com/orgs/OperationCaribbeanSummer/discussions
+    about: Please use the community forum for questions
+  - name: 💡 Features & Ideas
+    url: https://github.com/orgs/OperationCaribbeanSummer/discussions/categories/ideas
+    about: Please vote for & post new ideas in the the forum
+  - name: 📖 Documentation
+    url: https://OperationCaribbeanSummer.github.io/.github
+    about: Tutorials & reference guides for themes, the API and more
+  - name: 👮‍♂️ Security issue disclosure (SECURITY.md)
+    url: https://github.com/OperationCaribbeanSummer/.github/security
+    about: Report a security issue in WikiAgora
+  - name: 🙋‍♀️ Support Request (CONTRIBUTING.md)
+    url: https://github.com/OperationCaribbeanSummer/.github/blob/main/CONTRIBUTING.md
+    about: Questions and requests for support
