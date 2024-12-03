@@ -1,1 +1,25 @@
+## 0.2.0 (2024-10-29)
+
+* Add workflow badges to README ([1ff24f9](https://github.com/OperationCaribbeanSummer/test-repository/commit/1ff24f9))
+* Create CHANGELOG.md ([8a01a1d](https://github.com/OperationCaribbeanSummer/test-repository/commit/8a01a1d))
+* Create CONTRIBUTORS,md ([dbea965](https://github.com/OperationCaribbeanSummer/test-repository/commit/dbea965))
+* Create invitation.yml ([3e9e8b3](https://github.com/OperationCaribbeanSummer/test-repository/commit/3e9e8b3))
+* create labels.json ([cb4502a](https://github.com/OperationCaribbeanSummer/test-repository/commit/cb4502a))
+* Create labels.yml ([59ab4e1](https://github.com/OperationCaribbeanSummer/test-repository/commit/59ab4e1))
+* Create release.yml ([aadba57](https://github.com/OperationCaribbeanSummer/test-repository/commit/aadba57))
+* Create thank_contributors.yaml ([402a057](https://github.com/OperationCaribbeanSummer/test-repository/commit/402a057))
+* Create versioning.yml ([b948d26](https://github.com/OperationCaribbeanSummer/test-repository/commit/b948d26))
+* Initial commit ([5e945ce](https://github.com/OperationCaribbeanSummer/test-repository/commit/5e945ce))
+* Update CONTRIBUTORS.md ([c5d7980](https://github.com/OperationCaribbeanSummer/test-repository/commit/c5d7980))
+* Update invitation.yml ([d1d157a](https://github.com/OperationCaribbeanSummer/test-repository/commit/d1d157a))
+* Update labels.yml ([caf1400](https://github.com/OperationCaribbeanSummer/test-repository/commit/caf1400))
+* Update release.yml ([fa184f6](https://github.com/OperationCaribbeanSummer/test-repository/commit/fa184f6))
+* Update release.yml ([c4c4e7e](https://github.com/OperationCaribbeanSummer/test-repository/commit/c4c4e7e))
+* Update release.yml ([b4b3948](https://github.com/OperationCaribbeanSummer/test-repository/commit/b4b3948))
+* Update release.yml ([9bed3ae](https://github.com/OperationCaribbeanSummer/test-repository/commit/9bed3ae))
+* Update release.yml ([a7321a5](https://github.com/OperationCaribbeanSummer/test-repository/commit/a7321a5))
+* Update thank_contributors.yaml ([14b8394](https://github.com/OperationCaribbeanSummer/test-repository/commit/14b8394))
+* Update thank_contributors.yaml ([b4829c1](https://github.com/OperationCaribbeanSummer/test-repository/commit/b4829c1))
+
+
 

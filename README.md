@@ -74,6 +74,12 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 - [Dedication](#Dedication)
 - [License](#License)
 
+some changes...
+
+# Features
+
+- [x] testing new features
+
 ## Contribute
 
 test changelog
