@@ -1,0 +1,38 @@
+# \pedrojunqueira\git-tag-demo-dev\.github\workflows\release.yml
+name: release_test
+
+on: push
+
+permissions:
+  contents: write
+
+jobs:
+  check_version:
+    runs-on: ubuntu-latest
+    if: ${{ endsWith(github.ref, '/dev') || endsWith(github.ref, '/master') || startsWith(github.ref, 'refs/tags')}}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print Version
+        run: |
+          python -c "import version; print(version.__version__)"
+
+  release:
+    name: Release pushed tag
+    needs: check_version
+    runs-on: ubuntu-latest
+    if: ${{ startsWith(github.ref, 'refs/tags') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Print Version
+        run: |
+          python -c "import version; print(version.__version__)"
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
+        run: |
+          gh release create "$tag" \
+            --repo="$GITHUB_REPOSITORY" \
+            --title="${tag#v}" \
+            --generate-notes

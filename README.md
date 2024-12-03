@@ -6,21 +6,21 @@
 [![GitHub release](https://img.shields.io/github/release/OperationCaribbeanSummer/test-repository.svg)](https://GitHub.com/OperationCaribbeanSummer/test-repository/releases/)
 [![GitHub branches](https://badgen.net/github/branches/OperationCaribbeanSummer/test-repository)](https://github.com/OperationCaribbeanSummer/test-repository/branches)
 
-![GitHub number of milestones](https://img.shields.io/github/milestones/all/OperationCaribbeanSummer/test-repository?label=Total%20milestones)
-![GitHub number of milestones](https://img.shields.io/github/milestones/open/OperationCaribbeanSummer/test-repository)
-![GitHub number of milestones](https://img.shields.io/github/milestones/closed/OperationCaribbeanSummer/test-repository)
+![GitHub total milestones](https://img.shields.io/github/milestones/all/OperationCaribbeanSummer/test-repository?label=Total%20milestones)
+![GitHub open milestones](https://img.shields.io/github/milestones/open/OperationCaribbeanSummer/test-repository)
+![GitHub closed milestones](https://img.shields.io/github/milestones/closed/OperationCaribbeanSummer/test-repository)
 
-![GitHub Issues](https://img.shields.io/github/issues/OperationCaribbeanSummer/test-repository)
-![GitHub Issues](https://img.shields.io/github/issues-closed/OperationCaribbeanSummer/test-repository) |
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/OperationCaribbeanSummer/test-repository)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr-closed/OperationCaribbeanSummer/test-repository)
+![GitHub issues](https://img.shields.io/github/issues/OperationCaribbeanSummer/test-repository)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/OperationCaribbeanSummer/test-repository) |
+![GitHub pull requests](https://img.shields.io/github/issues-pr/OperationCaribbeanSummer/test-repository)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/OperationCaribbeanSummer/test-repository)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/OperationCaribbeanSummer/test-repository?logo=github)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/OperationCaribbeanSummer/test-repository/total?logo=github&label=repo%20downloads)
+![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/OperationCaribbeanSummer/test-repository/total?logo=github&label=repo%20downloads)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/OperationCaribbeanSummer/test-repository/graphs/commit-activity)
-[![Ask Us Anything !](https://img.shields.io/badge/Ask%20Us-anything-1abc9c.svg)](https://github.com/orgs/OperationCaribbeanSummer/discussions)
+[![Ask us anything !](https://img.shields.io/badge/Ask%20Us-anything-1abc9c.svg)](https://github.com/orgs/OperationCaribbeanSummer/discussions)
 
-[![contributors](https://img.shields.io/github/contributors/OperationCaribbeanSummer/test-repository.svg)](https://github.com/OperationCaribbeanSummer/test-repository/contributors/ 'Contributors')
+[![Contributors](https://img.shields.io/github/contributors/OperationCaribbeanSummer/test-repository.svg)](https://github.com/OperationCaribbeanSummer/test-repository/contributors/ 'Contributors')
 
 [![OpenCollective](https://opencollective.com/OperationCaribbeanSummer/backers/badge.svg)](https://opencollective.com/OperationCaribbeanSummer/)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -31,11 +31,11 @@ ORG
 
 [![GitHub followers](https://img.shields.io/github/followers/OperationCaribbeanSummer?label=Followers&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
 [![GitHub user stars](https://img.shields.io/github/stars/OperationCaribbeanSummer?affiliations=OWNER&label=User%20Stars&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
-[![GitHub followers](https://img.shields.io/github/discussions/OperationCaribbeanSummer/test-repository?logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
+[![GitHub discussions](https://img.shields.io/github/discussions/OperationCaribbeanSummer/test-repository?logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
 
-[![Website OperationCaribbeanSummer.com](https://img.shields.io/badge/https://-OperationCaribbeanSummer.com-blue?style=flat&logo=google-chrome)](http://OperationCaribbeanSummer.com/)
-[![Website OperationCaribbeanSummer.com](https://img.shields.io/website-up-down-green-red/http/OperationCaribbeanSummer.com.svg)](http://OperationCaribbeanSummer.com/)
-[![Website OperationCaribbeanSummer.com](https://img.shields.io/badge/Email-co2mm.esperanto@gmail.com-blue?style=flat&logo=gmail)](mailto:co2mm.esperanto@gmail.com)
+[![Website url](https://img.shields.io/badge/https://-OperationCaribbeanSummer.com-blue?style=flat&logo=google-chrome)](http://OperationCaribbeanSummer.com/)
+[![Website status](https://img.shields.io/website-up-down-green-red/http/OperationCaribbeanSummer.com.svg)](http://OperationCaribbeanSummer.com/)
+[![email](https://img.shields.io/badge/Email-co2mm.esperanto@gmail.com-blue?style=flat&logo=gmail)](mailto:co2mm.esperanto@gmail.com)
 
 ## Description
 
