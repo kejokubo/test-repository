@@ -14,10 +14,10 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      # - name: Build
+      #   run: npm run build
 
-      - run: git add dist -f
+      # - run: git add dist -f
 
       - name: Generate changelog
         id: changelog
