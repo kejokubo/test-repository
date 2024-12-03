@@ -80,6 +80,10 @@ some changes...
 
 - [x] testing new features
 
+## Contribute
+
+test changelog
+
 ## License
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://github.com/OperationCaribbeanSummer/test-repository/blob/main/LICENSE)
