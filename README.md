@@ -74,6 +74,8 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 - [Dedication](#Dedication)
 - [License](#License)
 
+some changes...
+
 ## License
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://github.com/OperationCaribbeanSummer/test-repository/blob/main/LICENSE)
