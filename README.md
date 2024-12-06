@@ -76,6 +76,8 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 
 some changes...
 
+test 3
+
 # Features
 
 - [x] testing new features
