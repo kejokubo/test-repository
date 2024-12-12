@@ -90,6 +90,12 @@ test 10
 
 - [x] testing new features
 
+feature [#15](https://github.com/OperationCaribbeanSummer/test-repository/issues/15)
+
+`feat #15`
+
+feat #15
+
 ## Contribute
 
 test changelog
