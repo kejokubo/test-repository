@@ -108,6 +108,8 @@ fixing test
 
 ## Chore test
 
+feat test
+
 ## Contribute
 
 test changelog
