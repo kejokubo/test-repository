@@ -100,6 +100,10 @@ feature [#15](https://github.com/OperationCaribbeanSummer/test-repository/issues
 
 feat #15
 
+## Fix test
+
+fix [#31](https://github.com/OperationCaribbeanSummer/test-repository/issues/31)
+
 ## Contribute
 
 test changelog
