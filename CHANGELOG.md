@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.4.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.3.0...v3.4.0) (2024-12-12)
+
+
+### 🚀 Features
+
+* description ([45a507c](https://github.com/OperationCaribbeanSummer/test-repository/commit/45a507c4d57e4cf6bcded4a87e0dd1d959211ad4)), closes [#31](https://github.com/OperationCaribbeanSummer/test-repository/issues/31)
+* feat 2 ([82ce395](https://github.com/OperationCaribbeanSummer/test-repository/commit/82ce39537c3aebbec5b5edcf70510b11ef98c323)), closes [#31](https://github.com/OperationCaribbeanSummer/test-repository/issues/31)
+* testint feature ([4c4d851](https://github.com/OperationCaribbeanSummer/test-repository/commit/4c4d851d2d49114a4703664f252591a3c894a440)), closes [#33](https://github.com/OperationCaribbeanSummer/test-repository/issues/33)
+
 ## [3.3.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.2.0...v3.3.0) (2024-12-12)
 
 
