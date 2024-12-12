@@ -1,23 +1,42 @@
 {
   "name": "test-repository",
-  "version": "0.2.0",
+  "version": "3.0.0",
   "description": "Test repo",
+  "license": "GPL-3.0",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "coverage": "jest --coverage",
+    "dev": "nodemon app.js",
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs",
+    "format": "npx prettier --write .",
+    "lint": "eslint --ignore-path .gitignore",
+    "prod": "pm2 start app.js",
+    "start": "nodemon app.js",
+    "test": "jest"
   },
-  "license": "GPL",
   "dependencies": {
     "@primer/css": "^17.0.1",
-    "vuepress": "^2.0.0-rc.18"
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@vuepress/bundler-vite": "^2.0.0-rc.18",
     "@vuepress/theme-default": "^2.0.0-rc.58",
-    "eslint": "^9.12.0",
+    "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3"
-  }
+    "nodemon": "^3.0.3",
+    "prettier": "^3.3.3",
+    "vitepress": "^1.5.0"
+  },
+  "readmeFilename": "README.md"
 }

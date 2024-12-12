@@ -86,7 +86,11 @@ test 8
 test 9
 test 10
 
-# Features
+test feature [#32](https://github.com/OperationCaribbeanSummer/test-repository/issues/32)
+
+`#3`
+
+test feat #3
 
 - [x] testing new features
 
