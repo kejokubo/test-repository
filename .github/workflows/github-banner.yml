@@ -34,15 +34,15 @@ jobs:
           git add .
           git push
 
-          echo "REPOSITORY_NAME=" "$REPOSITORY_NAME"
-          echo "REPOSITORY_LANG=" "$REPOSITORY_LANG"
+          # echo "REPOSITORY_NAME=" "$REPOSITORY_NAME"
+          # echo "REPOSITORY_LANG=" "$REPOSITORY_LANG"
           # echo "=" "$"
           # echo "=" "$"
           # echo "=" "$"
           # "$LABEL_CONFIG_PATH" "$LABEL_REPOSITORY"
-        env:
-          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPOSITORY_NAME: ${{ github.repository }}
-          REPOSITORY_LANG: ${{ github.repository.languages }}
-          REPOSITORY_STARS: ${{ github.444444 }}
-          REPOSITORY_FORKS: ${{ github.444444 }}
+        # env:
+        #   GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #   REPOSITORY_NAME: ${{ github.repository }}
+        #   REPOSITORY_LANG: ${{ github.repository.languages }}
+        #   REPOSITORY_STARS: ${{ github.444444 }}
+        #   REPOSITORY_FORKS: ${{ github.444444 }}
