@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.1](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.7.0...v3.7.1) (2024-12-13)
+
+
+### 🐛 Bugfixes
+
+* fix problems ([c069f25](https://github.com/OperationCaribbeanSummer/test-repository/commit/c069f2563f37eaf0320dd712f8c55233443883a6))
+
 ## [3.7.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.6.0...v3.7.0) (2024-12-13)
 
 
