@@ -100,6 +100,8 @@ feature [#15](https://github.com/OperationCaribbeanSummer/test-repository/issues
 
 feat #15
 
+feature [#41](https://github.com/OperationCaribbeanSummer/test-repository/issues/41)
+
 ## chore test
 
 ## Fix test
