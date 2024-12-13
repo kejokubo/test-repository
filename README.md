@@ -53,9 +53,6 @@ some changes...
 
 test 3
 
-test 4
-test 5
-
 test feature [#32](https://github.com/OperationCaribbeanSummer/test-repository/issues/32)
 
 `#32`
