@@ -55,9 +55,7 @@ test 3
 
 test feature [#32](https://github.com/OperationCaribbeanSummer/test-repository/issues/32)
 
-`#32`
-
-test feat #32
+feature [#38](https://github.com/OperationCaribbeanSummer/test-repository/issues/38)
 
 - [x] testing new features
 
