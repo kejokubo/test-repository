@@ -47,32 +47,7 @@ This code repository (or "repo") is designed to demonstrate the best GitHub has 
 
 #OperationCaribbeanSummer
 
-## Contents
-
-- [Description](#Description)
-- [Tags/Hashtags](#Tags/Hashtags)
-- [Features](Features)
-- [Dependencies](Dependencies)
-- [Ideas/Usage](#Ideas/Usage)
-- [Subpáginas](#Subpáginas)
-- [Visuals](#Visuals)
-- [Installation](#Installation)
-- [Demo](#Demo)
-- [Documentation](#Documentation)
-  - [Project documentation](#Project-documentation)
-  - [API documentation](#API-documentation)
-- [Usage](#Usage)
-- [Roadmap](#Roadmap)
-- [Change log/versions](#Change-log/versions)
-- [Support](#Support-the-project)
-- [Warning](#Warning)
-- [Official Site](#Official-Site)
-- [Contact info](#Contact-info)
-- [Contributing](#Contributing)
-- [Authors](#Authors-and-acknowledgment)
-- [Credits](#Credits)
-- [Dedication](#Dedication)
-- [License](#License)
+bug fixed bug [#47](https://github.com/OperationCaribbeanSummer/test-repository/issues/47)
 
 some changes...
 
