@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.8.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.7.1...v3.8.0) (2024-12-14)
+
+
+### 🚀 Features
+
+* Add contributors ([767e4f9](https://github.com/OperationCaribbeanSummer/test-repository/commit/767e4f9437ca5f752c8048edad3121f399cdeb66))
+
 ## [3.7.1](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.7.0...v3.7.1) (2024-12-13)
 
 
