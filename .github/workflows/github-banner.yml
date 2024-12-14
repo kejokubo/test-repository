@@ -41,7 +41,7 @@ jobs:
           # echo "=" "$"
           # "$LABEL_CONFIG_PATH" "$LABEL_REPOSITORY"
         env:
-          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN_OPERATIONCARIBBEANSUMMER }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN_OPERATIONCARIBBEANSUMMER }}
           
         #   REPOSITORY_NAME: ${{ github.repository }}
         #   REPOSITORY_LANG: ${{ github.repository.languages }}
