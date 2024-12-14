@@ -31,8 +31,8 @@ jobs:
 
           echo "<?xml version='1.0' encoding='utf-8'?><svg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 600 200' style='enable-background:new 0 0 600 200;' xml:space='preserve'><style type='text/css'>.st0{fill:none;}.st1{fill:#FFFFFF;}.st2{font-family:'MyriadPro-Regular';}.st3{font-size:42px;}.st4{font-size:18px;}</style><g><rect x='0.5' y='0.5' width='599' height='199'/><path d='M599,1v198H1V1H599 M600,0H0v200h600V0L600,0z'/></g><rect x='27.84' y='16.52' class='st0' width='536.14' height='44.48'/><text transform='matrix(1 0 0 1 56.8032 46.3379)' class='st1 st2 st3'>OperationCaribbeanSummer</text><rect x='71.45' y='87.31' class='st0' width='224.55' height='101.2'/><text transform='matrix(1 0 0 1 71.4458 164.8936)'><tspan x='0' y='0' class='st1 st2 st4'>watshers: $GITHUB_REPO_WATCHERS</tspan><tspan x='0' y='21.6' class='st1 st2 st4'>...</tspan></text><rect x='71.45' y='87.31' class='st0' width='224.55' height='101.2'/><text transform='matrix(1 0 0 1 71.4458 143.293)' class='st1 st2 st4'>forks: $GITHUB_REPO_FORKCOUNT</text><rect x='71.45' y='87.31' class='st0' width='224.55' height='101.2'/><text transform='matrix(1 0 0 1 71.4458 100.0933)' class='st1 st2 st4'>Stats</text><rect x='72.45' y='87.31' class='st0' width='165.06' height='101.2'/><text transform='matrix(1 0 0 1 72.4458 121.6934)'><tspan x='0' y='0' class='st1 st2 st4'>stars: $GITHUB_REPO_STARS</tspan><tspan x='0' y='43.2' class='st1 st2 st4'>...</tspan></text></svg>" > banner-OpCaSu.svg
 
-          git add .
-          git push
+          # git add .
+          # git push
 
           # echo "REPOSITORY_NAME=" "$REPOSITORY_NAME"
           # echo "REPOSITORY_LANG=" "$REPOSITORY_LANG"
@@ -42,6 +42,7 @@ jobs:
           # "$LABEL_CONFIG_PATH" "$LABEL_REPOSITORY"
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN_OPERATIONCARIBBEANSUMMER }}
+          
         #   REPOSITORY_NAME: ${{ github.repository }}
         #   REPOSITORY_LANG: ${{ github.repository.languages }}
         # env:
