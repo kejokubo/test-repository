@@ -19,6 +19,9 @@ jobs:
         run: |
           VERSION=$(cat package.json | jq -r '.version')
           echo "version = $VERSION"
+          echo "release+tag_name = ${{ github.event.release.tag_name }}"
+          NPM_VERSION=$(cat .github/.release-please-manifest.json | jq -r '.\.')
+          echo "version = $NPM_VERSION"
 #  release:
 #    name: Release pushed tag
 #    needs: check_version
