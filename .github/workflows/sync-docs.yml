@@ -22,4 +22,4 @@ jobs:
             # - source: 
             #   dest: 
           repos: |
-            OperationCaribbeanSummer/docs-wikiagora
+            OperationCaribbeanSummer/docs-wikiagora/docs/test-repository

@@ -40,9 +40,9 @@ jobs:
           # echo "=" "$"
           # echo "=" "$"
           # "$LABEL_CONFIG_PATH" "$LABEL_REPOSITORY"
-        # env:
-        #   GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN_OPERATIONCARIBBEANSUMMER }}
         #   REPOSITORY_NAME: ${{ github.repository }}
         #   REPOSITORY_LANG: ${{ github.repository.languages }}
-        #   REPOSITORY_STARS: ${{ github.444444 }}
-        #   REPOSITORY_FORKS: ${{ github.444444 }}
+        # env:
+        #   GH_TOKEN: ${{ github.token }}
