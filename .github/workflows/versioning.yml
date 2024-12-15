@@ -12,6 +12,6 @@ jobs:
 
       - uses: Actions-R-Us/actions-tagger@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_OPERATIONCARIBBEANSUMMER }}
         with:
           publish_latest_tag: 'true'
