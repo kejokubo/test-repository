@@ -1,0 +1,6 @@
+{
+  "projectName": "test-repository",
+  "projectOwner": "operationcaribbeansummer",
+  "files": ["README.md", "CONTRIBUTORS.md"],
+  "imageSize": 50
+}
