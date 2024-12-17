@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.12.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.11.0...v3.12.0) (2024-12-17)
+
+
+### Features
+
+* Create sync-config.yml ([110fc61](https://github.com/OperationCaribbeanSummer/test-repository/commit/110fc6150ecac66380b66ad6842b93359cb6c912))
+
 ## [3.11.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.10.0...v3.11.0) (2024-12-17)
 
 
