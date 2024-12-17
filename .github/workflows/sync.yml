@@ -14,166 +14,26 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.GITHUB_TOKEN_OPERATIONCARIBBEANSUMMER }}
-          PR_LABELS: sync
+          PR_LABELS: |
+            file-sync
+            automerge
+          SKIP_PR: true
         group:
-        # dependabot files
-        # - files:
-        #     - source: configs/dependabot.yml
-        #       dest: .github/dependabot.yml
-        #     - source: workflows/dependencies/dependabot.yml
-        #       dest: .github/workflows/dependabot.yml
-        #   repos: |
-        #     BetaHuhn/do-spaces-action
-        #     BetaHuhn/running-at
-        #     BetaHuhn/spaces-cli
+          - files:
+              - source: .github/workflows/auto-assign.yml
+                dest: .github/workflows/auto-assign.yml
+            repos: |
+              OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
 
+      
         # GPL License
-        - files:
-            - source: .editorconfig
-              dest: .editorconfig
-            - source: .eslintignore
-              dest: .eslintignore
-            - source: .eslintrc.js
-              dest: .eslintrc.js
-            - source: .gitignore
-              dest: .gitignore
-            - source: .prettierignore
-              dest: .prettierignore
-            - source: .prettierrc
-              dest: .prettierrc
-            - source: CODE_OF_CONDUCT.md
-              dest: CODE_OF_CONDUCT.md
-            - source: favicon.ico
-              dest: favicon.ico
-            - source: LICENSE
-              dest: LICENSE
-            - source: LICENSE_CONTENT
-              dest: LICENSE_CONTENT
-            - source: logo.svg
-              dest: logo.svg
-
-            # .github
-            - source: config.yml
-              dest: config.yml
-            - source: .github/ISSUE_TEMPLATE/
-              dest: .github/ISSUE_TEMPLATE/
-            - source: .github/dependabot.yml
-              dest: .github/dependabot.yml
-            - source: .github/FUNDING.yml
-              dest: .github/FUNDING.yml
-            - source: .github/PULL_REQUEST_TEMPLATE.md
-              dest: .github/PULL_REQUEST_TEMPLATE.md
-            
-            # workflows
-            - source: .github/workflows/auto-assign.yml
-              dest: .github/workflows/auto-assign.yml
-            - source: 
-              dest: 
-            - source: 
-              dest: 
-            - source: 
-              dest: 
-            - source: 
-              dest: 
-            - source: 
-              dest: 
-            - source: 
-              dest: 
-          repos: |
-            OperationCaribbeanSummer/WikiAgora
-            OperationCaribbeanSummer/agro-WikiAgora
-            OperationCaribbeanSummer/app-WikiAgora
-            OperationCaribbeanSummer/bakery-WikiAgora
-            OperationCaribbeanSummer/bankea-WikiAgora
-            OperationCaribbeanSummer/billboard-WikiAgora
-            OperationCaribbeanSummer/blood-donation-WikiAgora
-            OperationCaribbeanSummer/bodega-WikiAgora
-            OperationCaribbeanSummer/booking-WikiAgora
-            OperationCaribbeanSummer/CacerolasMap
-            OperationCaribbeanSummer/catastro-WikiAgora
-            OperationCaribbeanSummer/Citizen-Initiative-WikiAgora
-            OperationCaribbeanSummer/collaboration-WikiAgora
-            OperationCaribbeanSummer/commerce-WikiAgora
-            OperationCaribbeanSummer/crawling-acn.cu
-            OperationCaribbeanSummer/cuba-logos
-            OperationCaribbeanSummer/CyberGuerrillaAaronSwartz
-            OperationCaribbeanSummer/data.gob-WikiAgora
-            OperationCaribbeanSummer/db-WikiAgora
-            OperationCaribbeanSummer/Defensa-Civil-Nacional-WikiAgora
-            OperationCaribbeanSummer/docs-OperationCaribbeanSummer
-            OperationCaribbeanSummer/election-WikiAgora
-            OperationCaribbeanSummer/electricity-WikiAgora
-            OperationCaribbeanSummer/event-WikiAgora
-            OperationCaribbeanSummer/firefighter-WikiAgora
-            OperationCaribbeanSummer/Freedom-Of-Information-WikiAgora
-            OperationCaribbeanSummer/frontend-WikiAgora
-            OperationCaribbeanSummer/fuel-WikiAgora
-            OperationCaribbeanSummer/fundraising-WikiAgora
-            OperationCaribbeanSummer/gas-WikiAgora
-            OperationCaribbeanSummer/gob-cuba-logos
-            OperationCaribbeanSummer/gob-news-WikiAgora
-            OperationCaribbeanSummer/gob-web-info-WikiAgora
-            OperationCaribbeanSummer/gob-web-status-WikiAgora
-            OperationCaribbeanSummer/government-WikiAgora
-            OperationCaribbeanSummer/healthcare-system-WikiAgora
-            OperationCaribbeanSummer/humans.txt-generator-WikiAgora
-            OperationCaribbeanSummer/ionic-WikiAgora
-            OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
-            OperationCaribbeanSummer/Legislative-Initiative-WikiAgora
-            OperationCaribbeanSummer/lost-and-found-WikiAgora
-            OperationCaribbeanSummer/map-WikiAgora
-            OperationCaribbeanSummer/med-alert-WikiAgora
-            OperationCaribbeanSummer/meteoro-WikiAgora
-            OperationCaribbeanSummer/nonviolent-resistance-WikiAgora
-            OperationCaribbeanSummer/notifier-WikiAgora
-            OperationCaribbeanSummer/OperacionDiluvioCaribeño
-            OperationCaribbeanSummer/OperacionRepositorioCaribeño
-            OperationCaribbeanSummer/orders-decorations-medals-WikiAgora
-            OperationCaribbeanSummer/parlament-WikiAgora
-            OperationCaribbeanSummer/pharmacy-WikiAgora
-            OperationCaribbeanSummer/police-WikiAgora
-            OperationCaribbeanSummer/political-prisioner-WikiAgora
-            OperationCaribbeanSummer/portal-gob-WikiAgora
-            OperationCaribbeanSummer/portal-tools-WikiAgora
-            OperationCaribbeanSummer/portal-WikiAgora
-            OperationCaribbeanSummer/press-WikiAgora
-            OperationCaribbeanSummer/public-lighting-WikiAgora
-            OperationCaribbeanSummer/public-phones-WikiAgora
-            OperationCaribbeanSummer/recicling-WikiAgora
-            OperationCaribbeanSummer/repository-WikiAgora
-            OperationCaribbeanSummer/revolico-WikiAgora
-            OperationCaribbeanSummer/robots.txt-generator-WikiAgora
-            OperationCaribbeanSummer/scanner-WikiAgora
-            OperationCaribbeanSummer/scraping-Condecoraciones-Estado-Cubano-presidencia.gob.cu
-            OperationCaribbeanSummer/scraping-Diputados-ANPP-Cuba-parlamentocubano.gob.cu
-            OperationCaribbeanSummer/scraping-Directorio-ETECSA-pamarillas.cu
-            OperationCaribbeanSummer/scraping-Instituciones-del-Gobierno-presidencia.gob.cu
-            OperationCaribbeanSummer/scraping-laws-gaceta.gob.cu
-            OperationCaribbeanSummer/scraping-servicios-presidencia.gob.cu
-            OperationCaribbeanSummer/sewer-WikiAgora
-            OperationCaribbeanSummer/sitemap.xml-generator-WikiAgora
-            OperationCaribbeanSummer/sport-WikiAgora
-            OperationCaribbeanSummer/stats-OperationCaribbeanSummer
-            OperationCaribbeanSummer/stats-WikiAgora
-            OperationCaribbeanSummer/store-WikiAgora
-            OperationCaribbeanSummer/tender-WikiAgora
-            OperationCaribbeanSummer/text-editor-WikiAgora
-            OperationCaribbeanSummer/trash-WikiAgora
-            OperationCaribbeanSummer/urllist.txt-generator-WikiAgora
-            OperationCaribbeanSummer/water-WikiAgora
-            OperationCaribbeanSummer/web-OperationCaribbeanSummer
-            OperationCaribbeanSummer/Wiki-System-WikiAgora
-            OperationCaribbeanSummer/wiki-WikiAgora
-            OperationCaribbeanSummer/WikiAgora-auth
-            OperationCaribbeanSummer/WikiAgora-data
-            OperationCaribbeanSummer/WikiAgora-limitter
-            OperationCaribbeanSummer/WikiAgora-production
-            OperationCaribbeanSummer/WikiBache-WikiAgora
-            OperationCaribbeanSummer/WikiBudgets-WikiAgora
-            OperationCaribbeanSummer/WikiBus-ionic-WikiAgora
-            OperationCaribbeanSummer/WikiBus-WikiAgora
-            OperationCaribbeanSummer/WikiLaws-WikiAgora
-            OperationCaribbeanSummer/WikiLeaks-WikiAgora
+        # - files:
+        #     - source: .github/workflows/auto-assign.yml
+        #       dest: .github/workflows/auto-assign.yml
+        #     - source: .eslintignore
+        #       dest: .eslintignore
+        #   repos: |
+        #     OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
 
 # PR_LABELS
 # SKIP_PR
