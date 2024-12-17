@@ -30,8 +30,6 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@vuepress/bundler-vite": "^2.0.0-rc.18",
-    "@vuepress/theme-default": "^2.0.0-rc.58",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
     "nodemon": "^3.0.3",
