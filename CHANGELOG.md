@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.11.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.10.0...v3.11.0) (2024-12-17)
+
+
+### Features
+
+* Create automerge.yml ([8cec193](https://github.com/OperationCaribbeanSummer/test-repository/commit/8cec19304bd6d9985869a6f0f25e90f479da2e6f))
+* Update automerge.yml ([3ddfd2e](https://github.com/OperationCaribbeanSummer/test-repository/commit/3ddfd2e6deaf76f111d2ee68a34389a51951c52a))
+
 ## [3.10.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.9.0...v3.10.0) (2024-12-17)
 
 
