@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.10.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.9.0...v3.10.0) (2024-12-17)
+
+
+### Features
+
+* Update package.json ([e57673c](https://github.com/OperationCaribbeanSummer/test-repository/commit/e57673cb6292c01e5e98432a73aca5f3745a4229))
+
+## [3.9.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.8.0...v3.9.0) (2024-12-14)
+
+
+### 🚀 Features
+
+* Add contributors ([767e4f9](https://github.com/OperationCaribbeanSummer/test-repository/commit/767e4f9437ca5f752c8048edad3121f399cdeb66))
+* workflow adds ([630e287](https://github.com/OperationCaribbeanSummer/test-repository/commit/630e287fedeb020050cf05bcb2e394742bad1463))
+
 ## [3.8.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.7.1...v3.8.0) (2024-12-14)
 
 

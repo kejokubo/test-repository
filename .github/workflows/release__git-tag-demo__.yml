@@ -1,7 +1,9 @@
 # \pedrojunqueira\git-tag-demo-dev\.github\workflows\release.yml
 name: release_test
 
-on: push
+# on: push
+on:
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -9,30 +11,35 @@ permissions:
 jobs:
   check_version:
     runs-on: ubuntu-latest
-    if: ${{ endsWith(github.ref, '/dev') || endsWith(github.ref, '/master') || startsWith(github.ref, 'refs/tags')}}
     steps:
       - uses: actions/checkout@v4
       - name: Print Version
-        run: |
-          python -c "import version; print(version.__version__)"
-
-  release:
-    name: Release pushed tag
-    needs: check_version
-    runs-on: ubuntu-latest
-    if: ${{ startsWith(github.ref, 'refs/tags') }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Print Version
-        run: |
-          python -c "import version; print(version.__version__)"
-      - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref_name }}
         run: |
-          gh release create "$tag" \
-            --repo="$GITHUB_REPOSITORY" \
-            --title="${tag#v}" \
-            --generate-notes
+          VERSION=$(cat package.json | jq -r '.version')
+          echo "version = $VERSION"
+          echo "release+tag_name = ${{ github.event.release.tag_name }}"
+          NPM_VERSION=$(cat .github/.release-please-manifest.json | jq -r '..')
+          echo "version = $NPM_VERSION"
+#  release:
+#    name: Release pushed tag
+#    needs: check_version
+#    runs-on: ubuntu-latest
+#    if: ${{ startsWith(github.ref, 'refs/tags') }}
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v4
+#      - name: Print Version
+#        run: |
+#          VERSION=$(cat package.json | jq -r '.version')
+#          echo "version = $VERSION"
+#      - name: Create Release
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          tag: ${{ github.ref_name }}
+#        run: |
+#          gh release create "$tag" \
+#            --repo="$GITHUB_REPOSITORY" \
+#            --title="${tag#v}" \
+#            --generate-notes

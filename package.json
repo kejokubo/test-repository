@@ -1,7 +1,7 @@
 {
   "name": "test-repository",
-  "version": "3.0.0",
-  "description": "Test repo",
+  "version": "3.10.0",
+  "description": "Test repo+",
   "license": "GPL-3.0",
   "scripts": {
     "coverage": "jest --coverage",
