@@ -1,0 +1,6 @@
+group:
+  - files:
+      - source: .github/workflows/auto-assign.yml
+        dest: .github/workflows/auto-assign.yml
+    repos: |
+      OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
