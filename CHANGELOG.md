@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.10.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.9.0...v3.10.0) (2024-12-17)
+
+
+### Features
+
+* Update package.json ([e57673c](https://github.com/OperationCaribbeanSummer/test-repository/commit/e57673cb6292c01e5e98432a73aca5f3745a4229))
+
 ## [3.9.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.8.0...v3.9.0) (2024-12-14)
 
 
