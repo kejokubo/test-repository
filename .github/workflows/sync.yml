@@ -18,46 +18,7 @@ jobs:
             file-sync
             automerge
           SKIP_PR: true
-        group:
-          - files:
-              - source: .github/workflows/auto-assign.yml
-                dest: .github/workflows/auto-assign.yml
-            repos: |
-              OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
+          CONFIG_PATH: ./github/workflows/sync-config.yml
 
-      
-        # GPL License
-        # - files:
-        #     - source: .github/workflows/auto-assign.yml
-        #       dest: .github/workflows/auto-assign.yml
-        #     - source: .eslintignore
-        #       dest: .eslintignore
-        #   repos: |
-        #     OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
-
-# PR_LABELS
-# SKIP_PR
-
-
-# user/repo:
-#   - source: workflows/build.yml
-#     dest: .github/workflows/build.yml
-#   - source: LICENSE.md
-#     dest: LICENSE
-
-# Sync entire directories
-# user/repo:
-#   - source: workflows/
-#     dest: .github/workflows/
-
-# Sync the same files to multiple repositories
-# group:
-#   repos: |
-#     user/repo
-#     user/repo1
-#   files: 
-#     - source: workflows/build.yml
-#       dest: .github/workflows/build.yml
-#     - source: LICENSE.md
 #       dest: LICENSE
 
