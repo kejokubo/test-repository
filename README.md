@@ -81,6 +81,8 @@ test changelog
 
 ## Contributors
 
+From ALL-CONTRIBUTORS
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -89,6 +91,26 @@ test changelog
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+-----
+-----
+
+## Collaborators
+
+From /contributors-readme-action
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
+## Bots
+
+<!-- readme: bots -start -->
+<!-- readme: bots -end -->
 
 ## License
 
