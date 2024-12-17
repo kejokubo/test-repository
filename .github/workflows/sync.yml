@@ -18,4 +18,4 @@ jobs:
             file-sync
             automerge
           SKIP_PR: true
-          CONFIG_PATH: ./github/workflows/sync-config.yml
+          CONFIG_PATH: .github/workflows/sync-config.yml
