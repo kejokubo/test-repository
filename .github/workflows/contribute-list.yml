@@ -1,4 +1,4 @@
-name: CI
+name: contributors-readme-action
 on:
     push:
     pull_request:
@@ -7,11 +7,26 @@ on:
 jobs:
     contrib-readme-job:
         runs-on: ubuntu-latest
-        name: A job to automate contribute list in readme.md
+        name: A job to automate contrib in readme
+        permissions:
+          contents: write
+          pull-requests: write
         steps:
             - name: Contribute List
-              uses: akhilmhdh/contributors-readme-action@master
+              uses: akhilmhdh/contributors-readme-action@v2.3.10
               with:
                   readme_path: "README.md"
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+                  
+# jobs:
+#     contrib-readme-job:
+#         runs-on: ubuntu-latest
+#         name: A job to automate contribute list in readme.md
+#         steps:
+#             - name: Contribute List
+#               uses: akhilmhdh/contributors-readme-action@master
+#               with:
+#                   readme_path: "README.md"
+#               env:
+#                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
