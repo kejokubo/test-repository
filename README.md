@@ -100,16 +100,46 @@ From ALL-CONTRIBUTORS
 From /contributors-readme-action
 
 <!-- readme: collaborators -start -->
+<table>
+	<tbody>
+	<tbody>
+</table>
 <!-- readme: collaborators -end -->
 
 ## Contributors
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/JaviRamosLab">
+                    <img src="https://avatars.githubusercontent.com/u/43531047?v=4" width="100;" alt="JaviRamosLab"/>
+                    <br />
+                    <sub><b>Javier Ramos Nistal</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 ## Bots
 
 <!-- readme: bots -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/github-actions[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
+                    <br />
+                    <sub><b>github-actions[bot]</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: bots -end -->
 
 ## License
