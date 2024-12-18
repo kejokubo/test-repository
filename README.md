@@ -81,6 +81,8 @@ test changelog
 
 ## Contributors
 
+From ALL-CONTRIBUTORS
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -96,6 +98,71 @@ test changelog
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+---
+
+---
+
+## Collaborators
+
+From /contributors-readme-action
+
+<!-- readme: collaborators -start -->
+<table>
+	<tbody>
+	<tbody>
+</table>
+<!-- readme: collaborators -end -->
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/JaviRamosLab">
+                    <img src="https://avatars.githubusercontent.com/u/43531047?v=4" width="100;" alt="JaviRamosLab"/>
+                    <br />
+                    <sub><b>Javier Ramos Nistal</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
+<!-- readme: contributors -end -->
+
+## Bots
+
+<!-- readme: bots -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/allcontributors[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/23186?v=4" width="100;" alt="allcontributors[bot]"/>
+                    <br />
+                    <sub><b>allcontributors[bot]</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/dependabot[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="100;" alt="dependabot[bot]"/>
+                    <br />
+                    <sub><b>dependabot[bot]</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/github-actions[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
+                    <br />
+                    <sub><b>github-actions[bot]</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
+<!-- readme: bots -end -->
 
 ## License
 
