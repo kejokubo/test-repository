@@ -1,9 +1,12 @@
 {
   "projectName": "test-repository",
-  "projectOwner": "operationcaribbeansummer",
+  "projectOwner": "OperationCaribbeanSummer",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": ["README.md", "CONTRIBUTORS.md"],
+  "files": [
+    "README.md",
+    "CONTRIBUTORS.md"
+  ],
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
@@ -14,8 +17,7 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/43531047?v=4",
       "profile": "https://github.com/JaviRamosLab",
       "contributions": [
-        "code",
-        "doc"
+        "code"
       ]
     }
   ],
