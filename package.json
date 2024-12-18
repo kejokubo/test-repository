@@ -16,7 +16,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@primer/css": "^17.0.1",
+    "@primer/css": "^21.5.1",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
