@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.13.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.12.0...v3.13.0) (2024-12-18)
+
+
+### Features
+
+* deploy vitepress!? ([3d662f8](https://github.com/OperationCaribbeanSummer/test-repository/commit/3d662f8e1081c7c4423ce8db2540cd462db43287))
+
 ## [3.12.0](https://github.com/OperationCaribbeanSummer/test-repository/compare/v3.11.0...v3.12.0) (2024-12-17)
 
 
