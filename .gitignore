@@ -75,10 +75,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # vuepress build output
-.vuepress/dist
+docs/.vuepress/dist
 # vuepress v2.x temp and cache directory
-.vuepress/.temp
-.vuepress/.cache
+docs/.vuepress/.temp
+docs/.vuepress/.cache
 # vitepress build and cache directory
-.vitepress/cache
-.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/dist
