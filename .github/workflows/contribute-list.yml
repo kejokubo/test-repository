@@ -15,19 +15,13 @@ jobs:
       - name: Contribute List
         uses: akhilmhdh/contributors-readme-action@v2.3.10
         with:
-          readme_path: |
-            'README.md'
-            'CONTRIBUTORS.md'
+          readme_path: 'README.md'
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-# jobs:
-#     contrib-readme-job:
-#         runs-on: ubuntu-latest
-#         name: A job to automate contribute list in readme.md
-#         steps:
-#             - name: Contribute List
-#               uses: akhilmhdh/contributors-readme-action@master
-#               with:
-#                   readme_path: "README.md"
-#               env:
-#                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }
+    # steps:
+      - name: Contribute List 2
+        uses: akhilmhdh/contributors-readme-action@v2.3.10
+        with:
+          readme_path: 'CONTRIBUTORS.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }
