@@ -17,19 +17,37 @@ Read more at: (https://github.com/OperationCaribbeanSummer/.github/wiki)
 ### Contributors
 
 <!-- readme: contributors -start -->
-
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/JaviRamosLab">
+                    <img src="https://avatars.githubusercontent.com/u/43531047?v=4" width="100;" alt="JaviRamosLab"/>
+                    <br />
+                    <sub><b>Javier Ramos Nistal</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 ### Colaborators
 
 <!-- readme: collaborators -start -->
-
+<table>
+	<tbody>
+	<tbody>
+</table>
 <!-- readme: collaborators -end -->
 
 ### GitHub Sponsors
 
 <!-- readme: sponsors -start -->
-
+<table>
+	<tbody>
+	<tbody>
+</table>
 <!-- readme: sponsors -end -->
 
 ---
